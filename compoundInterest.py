@@ -11,13 +11,13 @@ def calculateCompoundInterest():
         CompoundInterest = Amount - principal
 
         if i == 1:
-            print("Compound Interest: ", "%.1f" % CompoundInterest)
+            print("Compound Interest:", "%.1f" % CompoundInterest)
             print("---")
         elif i == 2:
-            print("Compound Interest: ", "%.2f" % CompoundInterest)
+            print("Compound Interest:", "%.2f" % CompoundInterest)
             print("---")
         else:
-            print("Compound Interest: ", "%.1f" % CompoundInterest)
+            print("Compound Interest:", "%.1f" % CompoundInterest)
 
 
     # end assignment
