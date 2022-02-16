@@ -10,9 +10,15 @@ def calculateCompoundInterest():
         Amount = principal * (1 + (rate/100))**time
         CompoundInterest = Amount - principal
 
-        print("Compound Interest: "+str(CompoundInterest))
-        if i < 3:
+        if i == 1:
+            print("Compound Interest: ", "%.1f" % CompoundInterest)
             print("---")
+        elif i == 2:
+            print("Compound Interest: ", "%.2f" % CompoundInterest)
+            print("---")
+        else:
+            print("Compound Interest: ", "%.1f" % CompoundInterest)
+
 
     # end assignment
 
